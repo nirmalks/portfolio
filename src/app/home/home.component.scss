@@ -1,0 +1,52 @@
+
+
+h1 , h2 ,  ul{
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    background: #eee;
+    text-align: center;
+}   
+
+.container {
+    background: #eee;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+
+li {
+    list-style-type: none;
+    display: inline;
+}
+
+.social-buttons {
+    margin:20px 0; 
+    a {
+        margin-right:15px;
+    }
+
+}
+
+.skills-container {
+    display: flex;
+    // align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    // flex-flow: column wrap;
+    // align-content: stretch;
+    // min-height: 200px;
+    // max-height: 260px;
+    .mat-subheader {
+        padding:38px;
+    }
+}
+
+.display-inline {
+    display: inline-block;
+}
